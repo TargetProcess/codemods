@@ -1,0 +1,19 @@
+{
+  "name": "codemods",
+  "version": "1.0.0",
+  "description": "",
+  "main": "amd-to-commonjs.js",
+  "scripts": {
+    "test": "eslint ./*.js ./test/*.js && mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^4.1.3",
+    "chai": "^3.3.0",
+    "eslint": "^1.7.1",
+    "jscodeshift": "^0.3.7",
+    "mocha": "^2.3.3"
+  }
+}
